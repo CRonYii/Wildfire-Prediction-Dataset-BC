@@ -1,0 +1,4 @@
+node_modules
+.env
+PROT_HISTORICAL_INCIDENTS_SP.geojson
+parsed_wildfire_data.json
