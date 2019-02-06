@@ -2,7 +2,7 @@ const fs = require('promise-fs');
 const axios = require('axios');
 require('dotenv').config('.env');
 
-const WILDFIRE_DATASET = './data/PROT_HISTORICAL_INCIDENTS_SP.geojson';
+const WILDFIRE_DATASET = './data/Historical_Wildfire_Data_BC.json';
 const PARSED_WILDFIRE_DATASET = './data/parsed_wildfire_data.json';
 const AIML_DATASET = './data/AIML_dataset.json';
 

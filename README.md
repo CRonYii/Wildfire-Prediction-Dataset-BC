@@ -13,7 +13,7 @@ WEATHER_API_KEY=YOUR_API_KEY_GOES_HERE
 
 3. Download the Wildfire dataset from [BC Government](https://catalogue.data.gov.bc.ca/dataset/fire-incident-locations-historical), or use this [copy(January 2019)](https://drive.google.com/file/d/10smbxPCpOpW4sNQWaG5obkZCLDx9ZLYz/view?usp=sharing)
 
-Place it under the ./data folder
+    Rename it to Historical_Wildfire_Data_BC.json and place it under the ./data folder
 
 4. Run the code
 ```sh
