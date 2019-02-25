@@ -58,12 +58,12 @@ export interface Astronomy {
     moon_illumination: String
 }
 
-export function parseWildfireData(filter: (record: WildfireRecord) => boolean);
+export function parseWildfireData(filter: (record: WildfireRecord) => boolean, option?: { chunkSize: number, limit: number }): void;
 
 export function getWildfireData(): WildfireRecord[];
 
-export function writeToFile(filename: String, data: any);
+export function writeToFile(filename: String, data: any): void;
 
-export function getWeatherData(wildfire: WildfireRecord);
+export function getWeatherData(wildfire: WildfireRecord): Promise<Weatehr>;
 
-export function buildDataset(filter: (record: Weather) => any): void;
+export function buildDataset(filter: (record: Weather) => any, option: { number: number, limit: number }): void;

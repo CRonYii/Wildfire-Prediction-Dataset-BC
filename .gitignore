@@ -1,4 +1,4 @@
 node_modules
 .env
 Historical_Wildfire_Data_BC.json
-parsed_wildfire_data.json
+parsed_wildfire_data_*.json

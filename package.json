@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "parse": "node index.js --parse",
+    "weather": "node index.js --weather"
   },
   "author": "Rongyi Chen",
   "license": "MIT",

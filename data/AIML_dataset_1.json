@@ -1,0 +1,34 @@
+[
+    {
+        "year": 2017,
+        "date": "2017-07-07",
+        "lat": 51.9608,
+        "lon": -125.016,
+        "cause": "Lightning",
+        "size": 25558,
+        "location": "Kleena Kleene",
+        "weather": {
+            "maxtempC": 17,
+            "mintempC": 15,
+            "humidity": 65.5,
+            "precipMM": 0.575,
+            "pressure": 1019.375
+        }
+    },
+    {
+        "year": 2017,
+        "date": "2017-07-07",
+        "lat": 53.2276,
+        "lon": -124.0378,
+        "cause": "Lightning",
+        "size": 21870,
+        "location": "Kluskoil Lake 1",
+        "weather": {
+            "maxtempC": 32,
+            "mintempC": 21,
+            "humidity": 53.625,
+            "precipMM": 0.0125,
+            "pressure": 1015
+        }
+    }
+]
