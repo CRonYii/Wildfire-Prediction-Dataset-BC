@@ -16,6 +16,18 @@ WEATHER_API_KEY=YOUR_API_KEY_GOES_HERE
     Rename it to Historical_Wildfire_Data_BC.json and place it under the ./data folder
 
 4. Run the code
+to parse wildfire data and fetch weather data
 ```sh
 $ npm start
 ```
+or to only parse wildfire data
+```sh
+$ npm run parse
+```
+or to only fetch weather data
+```sh
+$ npm run weather
+```
+
+# Customize dataset
+Modify the code in index.js to get customized result
